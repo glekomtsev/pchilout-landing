@@ -14,7 +14,12 @@
 
 <body>
 	<!-- Пример @@include('blocks/header.html') -->
-	
+	<div class="main-view">
+		@@include('blocks/header.html')
+		@@include('blocks/main.html')
+	</div>
+	@@include('blocks/houses.html')
+	@@include('blocks/manual.html')
 	<script src="./js/index.bundle.js"></script>
 </body>
 

@@ -1,0 +1,50 @@
+.houses {
+  padding: 80px 0;
+}
+.houses__container {
+}
+.houses__title {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: #0d0d0d;
+
+  margin-bottom: 60px;
+}
+.houses__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+}
+
+
+.houses__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.houses__item-img{
+    margin-bottom: 15px;
+}
+.houses__item-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.houses__item-desc {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  margin-bottom: 15px;
+}
+.houses__item-div-btn {
+}
+.houses__item-btn {
+    padding: 12px 55px;
+}
+.btn {
+}

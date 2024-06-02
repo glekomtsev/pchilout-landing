@@ -1,0 +1,48 @@
+.manual {
+  padding: 80px 0;
+  background-color: var(--accent);
+}
+
+.manual__container {
+}
+.manual__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: #0d0d0d;
+
+  span {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+  }
+}
+.manual__items {
+  display: flex;
+  gap: 30px;
+}
+.manual__item {
+  background-color: #fff;
+  position: relative;
+}
+.manual__item-circle {
+  position: absolute;
+  left: 50%;
+
+  font-size: 42px;
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 90px;
+  background-color: #0d0d0d;
+}
+.manual__item-title {
+}
+.manual__item-desc {
+}
+.manual__item__img {
+}
