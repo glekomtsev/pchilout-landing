@@ -12,6 +12,8 @@
   text-align: center;
   color: #0d0d0d;
 
+  margin-bottom: 90px;
+
   span {
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
@@ -20,14 +22,26 @@
 .manual__items {
   display: flex;
   gap: 30px;
+
+  margin-bottom: 60px;
 }
 .manual__item {
+  padding: 75px 20px 25px;
+  flex: 1;
+
   background-color: #fff;
   position: relative;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .manual__item-circle {
   position: absolute;
   left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
 
   font-size: 42px;
   font-family: "Dela Gothic One", sans-serif;
@@ -41,8 +55,29 @@
   background-color: #0d0d0d;
 }
 .manual__item-title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  margin-bottom: 12px;
 }
 .manual__item-desc {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+
+  margin-bottom: 29px;
 }
 .manual__item__img {
+  margin: 0 auto;
+}
+
+.manual__div-btn {
+  display: flex;
+  justify-content: center;
+}
+.manual__btn {
+  padding: 19px 34px;
+  font-size: 16px;
+  text-align: center;
 }
