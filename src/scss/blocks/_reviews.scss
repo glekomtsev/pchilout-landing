@@ -1,0 +1,44 @@
+.reviews {
+  padding: 80px 0;
+}
+
+.reviews__container {
+}
+.grid {
+}
+.grid-item {
+  padding: 40px 40px;
+  background-color: var(--accent);
+  border-radius: 5px;
+  transition: transform 0.3s;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.review__item-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.review__item-people {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.review__item-avatar {
+}
+.review__item-desc {
+}
+.review__item-desc-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+.review__item-desc-social {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.review__item-social-name {
+  font-weight: 400;
+  font-size: 12px;
+}

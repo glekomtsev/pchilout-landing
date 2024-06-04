@@ -1,0 +1,19 @@
+.map {
+  position: relative;
+}
+.map-title {
+  position: absolute;
+  
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  p {
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: #fff;
+  }
+}
