@@ -1,4 +1,5 @@
 import Masonry from "masonry-layout";
+import imagesLoaded from "imagesloaded";
 
 // Галерея и лайтбоксы от Fancybox
 import { Fancybox } from "@fancyapps/ui";
@@ -13,13 +14,17 @@ Fancybox.bind("[data-fancybox]", {
 // mobileNav();
 
 //Masonry
-var elem = document.querySelector(".grid");
-var msnry = new Masonry(elem, {
-  itemSelector: ".grid-item",
-  columnWidth: 160,
-  columns: 3,
-  horizontalOrder: false,
-});
-var msnry = new Masonry(".grid", {
-  gutter: 20,
+document.addEventListener("DOMContentLoaded", function() {
+  var elem = document.querySelector(".grid");
+
+  // Убедитесь, что все изображения загружены перед инициализацией Masonry
+  imagesLoaded(elem, function() {
+    var msnry = new Masonry(elem, {
+      itemSelector: ".grid-item",
+      columnWidth: 160,
+      cloumns: 3,
+      gutter: 25,
+      horizontalOrder: false,
+    });
+  });
 });
