@@ -28,3 +28,32 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+//Show More
+document.addEventListener("DOMContentLoaded", () => {
+  const showMoreButton = document.getElementById("show-more");
+  const reviewsGrid = document.querySelector(".grid");
+  const gradientGrid = document.querySelector(".gradient");
+  let rowsShown = 3;
+
+  showMoreButton.addEventListener("click", () => {
+    rowsShown += 3;
+    reviewsGrid.style.maxHeight = `${rowsShown * 200}px`; // Высота одного ряда 200px
+
+    if (reviewsGrid.scrollHeight <= reviewsGrid.clientHeight) {
+      showMoreButton.style.display = "none";
+      gradientGrid.style.display = "none";
+    }
+  });
+});
+
+//Questions
+const btnPlus = document.querySelectorAll(".questions__item-plus");
+const textQuestion = document.querySelectorAll(".questions__item-text");
+
+btnPlus.forEach(function(button, index) {
+  button.addEventListener("click", function() {
+    textQuestion[index].classList.toggle("none");
+    button.classList.toggle("rotate");
+  });
+});

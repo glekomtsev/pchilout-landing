@@ -2,9 +2,51 @@
   padding: 80px 0;
 }
 
-.reviews__container {
+.reviews__title {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+
+  margin-bottom: 42px;
+}
+.reviews__info-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 42px;
+}
+.reviews__info-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.reviews__info-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+.reviews__rating {
+  font-weight: 700;
+  font-size: 18px;
+}
+.reviews__rating--red {
+  color: #fc3f1d;
+}
+
+.reviews__rating--green {
+  color: #29b24a;
+}
+
+.reviews__grid-container {
+  position: relative;
+  overflow: hidden;
+
+  margin-bottom: 20px;
 }
 .grid {
+  max-height: 600px; /* 3 ряда по 200px высотой */
+  overflow: hidden;
 }
 .grid-item {
   padding: 40px 40px;
@@ -41,4 +83,22 @@
 .review__item-social-name {
   font-weight: 400;
   font-size: 12px;
+}
+.gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: linear-gradient(to top, white, rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+
+.reviews__btn-show-more {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 55px;
+}
+
+#show-more {
 }
