@@ -30,7 +30,6 @@
 }
 
 .questions__div-img {
-  cursor: pointer;
 }
 .questions__item-text {
   font-weight: 400;
@@ -39,6 +38,7 @@
 }
 
 .questions__item-plus {
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
 .questions__item-plus.rotate {

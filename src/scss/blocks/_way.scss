@@ -1,0 +1,50 @@
+.way {
+  padding: 80px 0px;
+}
+.way__container {
+}
+.way__title {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+
+  span {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+  }
+
+  margin-bottom: 45px;
+}
+
+.way__info {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+
+  h2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+}

@@ -57,3 +57,8 @@ btnPlus.forEach(function(button, index) {
     button.classList.toggle("rotate");
   });
 });
+
+//Way
+window.onload = function() {
+  document.querySelector(".way__tab").focus();
+};

@@ -1,0 +1,29 @@
+.footer {
+  background: #fff;
+  padding: 0 0 80px;
+}
+.footer__container {
+  border-top: 1px solid#bfbfbf;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 40px;
+}
+.footer__desc {
+  font-weight: 400;
+  font-size: 12px;
+}
+.footer__politics {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #bfbfbf;
+}
+.footer__div-btn {
+}
+.footer__btn {
+  padding: 12px 24px;
+}
